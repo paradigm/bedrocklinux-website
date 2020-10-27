@@ -39,7 +39,7 @@ from those distros.
 
 - Anything provided by ~+Bedrock~x's distributed `busybox` located at
   `/bedrock/libexec/busybox`.  This busybox is compiled with
-  `CONFIG_FEATURE_PREFER_APPELTS` and consequently its own functionality is
+  `CONFIG_FEATURE_PREFER_APPLETS` and consequently its own functionality is
   effectively ahead of everything else in the `$PATH`.
 - Any of ~+Bedrock~x's static binaries in `/bedrock/libexec/`.  For example,
   ~{fetching~} some distros requires `zstd`, and so ~+Bedrock~x provides a copy
